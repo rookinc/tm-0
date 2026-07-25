@@ -1,0 +1,992 @@
+{
+  "audit_pass": true,
+  "boundary": {
+    "constructs_kernel_quotient": false,
+    "exports_expected_g30_edges": false,
+    "physical_claim": false,
+    "supplies_native_g60_graph": true,
+    "supplies_native_v4_coordinate_chart": true,
+    "uses_imported_aligned_cocycle": false
+  },
+  "certificate_id": "project42_native_g60_v4_source_certificate_034",
+  "checks": {
+    "all_four_v4_coordinates_occur_15_times": true,
+    "four_states_per_g15_vertex": true,
+    "g15_vertex_count_is_15": true,
+    "g60_edge_count_is_120": true,
+    "g60_states_are_0_through_59": true,
+    "g60_vertex_count_is_60": true
+  },
+  "g15_vertex_count": 15,
+  "g60_edge_count": 120,
+  "g60_edges": [
+    [
+      0,
+      16
+    ],
+    [
+      0,
+      19
+    ],
+    [
+      0,
+      25
+    ],
+    [
+      0,
+      55
+    ],
+    [
+      1,
+      15
+    ],
+    [
+      1,
+      26
+    ],
+    [
+      1,
+      29
+    ],
+    [
+      1,
+      35
+    ],
+    [
+      2,
+      25
+    ],
+    [
+      2,
+      36
+    ],
+    [
+      2,
+      39
+    ],
+    [
+      2,
+      45
+    ],
+    [
+      3,
+      35
+    ],
+    [
+      3,
+      46
+    ],
+    [
+      3,
+      49
+    ],
+    [
+      3,
+      55
+    ],
+    [
+      4,
+      15
+    ],
+    [
+      4,
+      45
+    ],
+    [
+      4,
+      56
+    ],
+    [
+      4,
+      59
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      5,
+      14
+    ],
+    [
+      5,
+      20
+    ],
+    [
+      5,
+      50
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      6,
+      21
+    ],
+    [
+      6,
+      24
+    ],
+    [
+      6,
+      30
+    ],
+    [
+      7,
+      20
+    ],
+    [
+      7,
+      31
+    ],
+    [
+      7,
+      34
+    ],
+    [
+      7,
+      40
+    ],
+    [
+      8,
+      30
+    ],
+    [
+      8,
+      41
+    ],
+    [
+      8,
+      44
+    ],
+    [
+      8,
+      50
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      40
+    ],
+    [
+      9,
+      51
+    ],
+    [
+      9,
+      54
+    ],
+    [
+      10,
+      24
+    ],
+    [
+      10,
+      51
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      11,
+      23
+    ],
+    [
+      12,
+      16
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      12,
+      24
+    ],
+    [
+      12,
+      58
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      13,
+      51
+    ],
+    [
+      13,
+      57
+    ],
+    [
+      13,
+      59
+    ],
+    [
+      14,
+      50
+    ],
+    [
+      14,
+      52
+    ],
+    [
+      14,
+      58
+    ],
+    [
+      15,
+      26
+    ],
+    [
+      15,
+      59
+    ],
+    [
+      16,
+      55
+    ],
+    [
+      16,
+      58
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      17,
+      59
+    ],
+    [
+      18,
+      22
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      19,
+      23
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      20,
+      34
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      21,
+      33
+    ],
+    [
+      22,
+      26
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      22,
+      34
+    ],
+    [
+      23,
+      27
+    ],
+    [
+      25,
+      36
+    ],
+    [
+      27,
+      33
+    ],
+    [
+      28,
+      32
+    ],
+    [
+      28,
+      34
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      33
+    ],
+    [
+      29,
+      35
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      44
+    ],
+    [
+      31,
+      37
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      31,
+      43
+    ],
+    [
+      32,
+      36
+    ],
+    [
+      32,
+      38
+    ],
+    [
+      32,
+      44
+    ],
+    [
+      33,
+      37
+    ],
+    [
+      35,
+      46
+    ],
+    [
+      37,
+      43
+    ],
+    [
+      38,
+      42
+    ],
+    [
+      38,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      39,
+      43
+    ],
+    [
+      39,
+      45
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      40,
+      54
+    ],
+    [
+      41,
+      47
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      42,
+      46
+    ],
+    [
+      42,
+      48
+    ],
+    [
+      42,
+      54
+    ],
+    [
+      43,
+      47
+    ],
+    [
+      45,
+      56
+    ],
+    [
+      47,
+      53
+    ],
+    [
+      48,
+      52
+    ],
+    [
+      48,
+      54
+    ],
+    [
+      48,
+      56
+    ],
+    [
+      49,
+      53
+    ],
+    [
+      49,
+      55
+    ],
+    [
+      49,
+      57
+    ],
+    [
+      51,
+      57
+    ],
+    [
+      52,
+      56
+    ],
+    [
+      52,
+      58
+    ],
+    [
+      53,
+      57
+    ]
+  ],
+  "g60_vertex_count": 60,
+  "source_audit019": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/artifacts/json/a5_v4_k22_four_slot_alignment_audit_019.json",
+  "source_audit019_pass": true,
+  "source_g900_edges": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/16-fifteen-thalion-ring/support/generated/g900_twisted_ring_candidate_edges.csv",
+  "source_project": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue",
+  "source_script": "/data/data/com.termux/files/home/dev/cori/research/mathematics/thalean-graph-theory/41-order-4-dodecahedral-residue/scripts/audit_invariant_cover_square_automorphism_orders_028m.py",
+  "state_rows": [
+    {
+      "g15_state": 0,
+      "g60_state": 0,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 1,
+      "g60_state": 1,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 2,
+      "g60_state": 2,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 3,
+      "g60_state": 3,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 4,
+      "g60_state": 4,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 2,
+      "g60_state": 5,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 3,
+      "g60_state": 6,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 4,
+      "g60_state": 7,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 0,
+      "g60_state": 8,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 1,
+      "g60_state": 9,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 2,
+      "g60_state": 10,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 5,
+      "g60_state": 11,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 6,
+      "g60_state": 12,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 7,
+      "g60_state": 13,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 8,
+      "g60_state": 14,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 0,
+      "g60_state": 15,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 9,
+      "g60_state": 16,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 6,
+      "g60_state": 17,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 10,
+      "g60_state": 18,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 11,
+      "g60_state": 19,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 3,
+      "g60_state": 20,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 12,
+      "g60_state": 21,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 13,
+      "g60_state": 22,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 10,
+      "g60_state": 23,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 5,
+      "g60_state": 24,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 1,
+      "g60_state": 25,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 11,
+      "g60_state": 26,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 13,
+      "g60_state": 27,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 14,
+      "g60_state": 28,
+      "v4_coordinate": [
+        0,
+        0
+      ]
+    },
+    {
+      "g15_state": 8,
+      "g60_state": 29,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 4,
+      "g60_state": 30,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 9,
+      "g60_state": 31,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 7,
+      "g60_state": 32,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 14,
+      "g60_state": 33,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 12,
+      "g60_state": 34,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 2,
+      "g60_state": 35,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 8,
+      "g60_state": 36,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 7,
+      "g60_state": 37,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 6,
+      "g60_state": 38,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 5,
+      "g60_state": 39,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 0,
+      "g60_state": 40,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 11,
+      "g60_state": 41,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 10,
+      "g60_state": 42,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 6,
+      "g60_state": 43,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 9,
+      "g60_state": 44,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 3,
+      "g60_state": 45,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 5,
+      "g60_state": 46,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 10,
+      "g60_state": 47,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 13,
+      "g60_state": 48,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 12,
+      "g60_state": 49,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 1,
+      "g60_state": 50,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 8,
+      "g60_state": 51,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 14,
+      "g60_state": 52,
+      "v4_coordinate": [
+        1,
+        0
+      ]
+    },
+    {
+      "g15_state": 13,
+      "g60_state": 53,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 11,
+      "g60_state": 54,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 4,
+      "g60_state": 55,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 12,
+      "g60_state": 56,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 14,
+      "g60_state": 57,
+      "v4_coordinate": [
+        1,
+        1
+      ]
+    },
+    {
+      "g15_state": 7,
+      "g60_state": 58,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    },
+    {
+      "g15_state": 9,
+      "g60_state": 59,
+      "v4_coordinate": [
+        0,
+        1
+      ]
+    }
+  ]
+}
