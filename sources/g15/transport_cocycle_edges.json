@@ -1,0 +1,1041 @@
+{
+  "name": "transport_cocycle_edges",
+  "status": "imported_from_aletheos_aligned_cocycle",
+  "base_graph": "G15",
+  "source_artifact": "/Users/scottcave/dev/cori/aletheos.ai/theorem/cocycle_data_aligned.json",
+  "source_graph": "G15",
+  "source_graph_description": "overlap-9 graph derived from Q on active theorem-object labeling",
+  "source_sign_convention": {
+    "parallel": 0,
+    "crossed": 1
+  },
+  "source_note": "Representative taken from archived cocycle paper edge table and fixed here as theorem-facing cocycle data.",
+  "alignment_note": "Archived cocycle representative transported through a graph isomorphism into the active overlap-9 graph labeling.",
+  "import_convention": {
+    "bit_0": "epsilon +1, phase +1 + 0i",
+    "bit_1": "epsilon -1, phase -1 + 0i",
+    "orientation_rule": "undirected Z2 value is assigned symmetrically to both directed edges"
+  },
+  "edge_records": [
+    {
+      "u": 0,
+      "v": 1,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        0,
+        1
+      ],
+      "support_directed_edge_id": 0,
+      "support_undirected_edge_id": 0,
+      "q_uv": 9
+    },
+    {
+      "u": 1,
+      "v": 0,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        0,
+        1
+      ],
+      "support_directed_edge_id": 1,
+      "support_undirected_edge_id": 0,
+      "q_uv": 9
+    },
+    {
+      "u": 0,
+      "v": 2,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        0,
+        2
+      ],
+      "support_directed_edge_id": 2,
+      "support_undirected_edge_id": 1,
+      "q_uv": 9
+    },
+    {
+      "u": 2,
+      "v": 0,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        0,
+        2
+      ],
+      "support_directed_edge_id": 3,
+      "support_undirected_edge_id": 1,
+      "q_uv": 9
+    },
+    {
+      "u": 0,
+      "v": 11,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        0,
+        11
+      ],
+      "support_directed_edge_id": 4,
+      "support_undirected_edge_id": 2,
+      "q_uv": 9
+    },
+    {
+      "u": 11,
+      "v": 0,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        0,
+        11
+      ],
+      "support_directed_edge_id": 5,
+      "support_undirected_edge_id": 2,
+      "q_uv": 9
+    },
+    {
+      "u": 0,
+      "v": 14,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        0,
+        14
+      ],
+      "support_directed_edge_id": 6,
+      "support_undirected_edge_id": 3,
+      "q_uv": 9
+    },
+    {
+      "u": 14,
+      "v": 0,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        0,
+        14
+      ],
+      "support_directed_edge_id": 7,
+      "support_undirected_edge_id": 3,
+      "q_uv": 9
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        1,
+        2
+      ],
+      "support_directed_edge_id": 8,
+      "support_undirected_edge_id": 4,
+      "q_uv": 9
+    },
+    {
+      "u": 2,
+      "v": 1,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        1,
+        2
+      ],
+      "support_directed_edge_id": 9,
+      "support_undirected_edge_id": 4,
+      "q_uv": 9
+    },
+    {
+      "u": 1,
+      "v": 8,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        1,
+        8
+      ],
+      "support_directed_edge_id": 10,
+      "support_undirected_edge_id": 5,
+      "q_uv": 9
+    },
+    {
+      "u": 8,
+      "v": 1,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        1,
+        8
+      ],
+      "support_directed_edge_id": 11,
+      "support_undirected_edge_id": 5,
+      "q_uv": 9
+    },
+    {
+      "u": 1,
+      "v": 13,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        1,
+        13
+      ],
+      "support_directed_edge_id": 12,
+      "support_undirected_edge_id": 6,
+      "q_uv": 9
+    },
+    {
+      "u": 13,
+      "v": 1,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        1,
+        13
+      ],
+      "support_directed_edge_id": 13,
+      "support_undirected_edge_id": 6,
+      "q_uv": 9
+    },
+    {
+      "u": 2,
+      "v": 5,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        2,
+        5
+      ],
+      "support_directed_edge_id": 14,
+      "support_undirected_edge_id": 7,
+      "q_uv": 9
+    },
+    {
+      "u": 5,
+      "v": 2,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        2,
+        5
+      ],
+      "support_directed_edge_id": 15,
+      "support_undirected_edge_id": 7,
+      "q_uv": 9
+    },
+    {
+      "u": 2,
+      "v": 12,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        2,
+        12
+      ],
+      "support_directed_edge_id": 16,
+      "support_undirected_edge_id": 8,
+      "q_uv": 9
+    },
+    {
+      "u": 12,
+      "v": 2,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        2,
+        12
+      ],
+      "support_directed_edge_id": 17,
+      "support_undirected_edge_id": 8,
+      "q_uv": 9
+    },
+    {
+      "u": 3,
+      "v": 4,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        3,
+        4
+      ],
+      "support_directed_edge_id": 18,
+      "support_undirected_edge_id": 9,
+      "q_uv": 9
+    },
+    {
+      "u": 4,
+      "v": 3,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        3,
+        4
+      ],
+      "support_directed_edge_id": 19,
+      "support_undirected_edge_id": 9,
+      "q_uv": 9
+    },
+    {
+      "u": 3,
+      "v": 5,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        3,
+        5
+      ],
+      "support_directed_edge_id": 20,
+      "support_undirected_edge_id": 10,
+      "q_uv": 9
+    },
+    {
+      "u": 5,
+      "v": 3,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        3,
+        5
+      ],
+      "support_directed_edge_id": 21,
+      "support_undirected_edge_id": 10,
+      "q_uv": 9
+    },
+    {
+      "u": 3,
+      "v": 10,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        3,
+        10
+      ],
+      "support_directed_edge_id": 22,
+      "support_undirected_edge_id": 11,
+      "q_uv": 9
+    },
+    {
+      "u": 10,
+      "v": 3,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        3,
+        10
+      ],
+      "support_directed_edge_id": 23,
+      "support_undirected_edge_id": 11,
+      "q_uv": 9
+    },
+    {
+      "u": 3,
+      "v": 13,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        3,
+        13
+      ],
+      "support_directed_edge_id": 24,
+      "support_undirected_edge_id": 12,
+      "q_uv": 9
+    },
+    {
+      "u": 13,
+      "v": 3,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        3,
+        13
+      ],
+      "support_directed_edge_id": 25,
+      "support_undirected_edge_id": 12,
+      "q_uv": 9
+    },
+    {
+      "u": 4,
+      "v": 5,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        4,
+        5
+      ],
+      "support_directed_edge_id": 26,
+      "support_undirected_edge_id": 13,
+      "q_uv": 9
+    },
+    {
+      "u": 5,
+      "v": 4,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        4,
+        5
+      ],
+      "support_directed_edge_id": 27,
+      "support_undirected_edge_id": 13,
+      "q_uv": 9
+    },
+    {
+      "u": 4,
+      "v": 7,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        4,
+        7
+      ],
+      "support_directed_edge_id": 28,
+      "support_undirected_edge_id": 14,
+      "q_uv": 9
+    },
+    {
+      "u": 7,
+      "v": 4,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        4,
+        7
+      ],
+      "support_directed_edge_id": 29,
+      "support_undirected_edge_id": 14,
+      "q_uv": 9
+    },
+    {
+      "u": 4,
+      "v": 14,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        4,
+        14
+      ],
+      "support_directed_edge_id": 30,
+      "support_undirected_edge_id": 15,
+      "q_uv": 9
+    },
+    {
+      "u": 14,
+      "v": 4,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        4,
+        14
+      ],
+      "support_directed_edge_id": 31,
+      "support_undirected_edge_id": 15,
+      "q_uv": 9
+    },
+    {
+      "u": 5,
+      "v": 12,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        5,
+        12
+      ],
+      "support_directed_edge_id": 32,
+      "support_undirected_edge_id": 16,
+      "q_uv": 9
+    },
+    {
+      "u": 12,
+      "v": 5,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        5,
+        12
+      ],
+      "support_directed_edge_id": 33,
+      "support_undirected_edge_id": 16,
+      "q_uv": 9
+    },
+    {
+      "u": 6,
+      "v": 7,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        6,
+        7
+      ],
+      "support_directed_edge_id": 34,
+      "support_undirected_edge_id": 17,
+      "q_uv": 9
+    },
+    {
+      "u": 7,
+      "v": 6,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        6,
+        7
+      ],
+      "support_directed_edge_id": 35,
+      "support_undirected_edge_id": 17,
+      "q_uv": 9
+    },
+    {
+      "u": 6,
+      "v": 8,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        6,
+        8
+      ],
+      "support_directed_edge_id": 36,
+      "support_undirected_edge_id": 18,
+      "q_uv": 9
+    },
+    {
+      "u": 8,
+      "v": 6,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        6,
+        8
+      ],
+      "support_directed_edge_id": 37,
+      "support_undirected_edge_id": 18,
+      "q_uv": 9
+    },
+    {
+      "u": 6,
+      "v": 9,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        6,
+        9
+      ],
+      "support_directed_edge_id": 38,
+      "support_undirected_edge_id": 19,
+      "q_uv": 9
+    },
+    {
+      "u": 9,
+      "v": 6,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        6,
+        9
+      ],
+      "support_directed_edge_id": 39,
+      "support_undirected_edge_id": 19,
+      "q_uv": 9
+    },
+    {
+      "u": 6,
+      "v": 12,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        6,
+        12
+      ],
+      "support_directed_edge_id": 40,
+      "support_undirected_edge_id": 20,
+      "q_uv": 9
+    },
+    {
+      "u": 12,
+      "v": 6,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        6,
+        12
+      ],
+      "support_directed_edge_id": 41,
+      "support_undirected_edge_id": 20,
+      "q_uv": 9
+    },
+    {
+      "u": 7,
+      "v": 8,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        7,
+        8
+      ],
+      "support_directed_edge_id": 42,
+      "support_undirected_edge_id": 21,
+      "q_uv": 9
+    },
+    {
+      "u": 8,
+      "v": 7,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        7,
+        8
+      ],
+      "support_directed_edge_id": 43,
+      "support_undirected_edge_id": 21,
+      "q_uv": 9
+    },
+    {
+      "u": 7,
+      "v": 14,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        7,
+        14
+      ],
+      "support_directed_edge_id": 44,
+      "support_undirected_edge_id": 22,
+      "q_uv": 9
+    },
+    {
+      "u": 14,
+      "v": 7,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        7,
+        14
+      ],
+      "support_directed_edge_id": 45,
+      "support_undirected_edge_id": 22,
+      "q_uv": 9
+    },
+    {
+      "u": 8,
+      "v": 13,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        8,
+        13
+      ],
+      "support_directed_edge_id": 46,
+      "support_undirected_edge_id": 23,
+      "q_uv": 9
+    },
+    {
+      "u": 13,
+      "v": 8,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        8,
+        13
+      ],
+      "support_directed_edge_id": 47,
+      "support_undirected_edge_id": 23,
+      "q_uv": 9
+    },
+    {
+      "u": 9,
+      "v": 10,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        9,
+        10
+      ],
+      "support_directed_edge_id": 48,
+      "support_undirected_edge_id": 24,
+      "q_uv": 9
+    },
+    {
+      "u": 10,
+      "v": 9,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        9,
+        10
+      ],
+      "support_directed_edge_id": 49,
+      "support_undirected_edge_id": 24,
+      "q_uv": 9
+    },
+    {
+      "u": 9,
+      "v": 11,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        9,
+        11
+      ],
+      "support_directed_edge_id": 50,
+      "support_undirected_edge_id": 25,
+      "q_uv": 9
+    },
+    {
+      "u": 11,
+      "v": 9,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        9,
+        11
+      ],
+      "support_directed_edge_id": 51,
+      "support_undirected_edge_id": 25,
+      "q_uv": 9
+    },
+    {
+      "u": 9,
+      "v": 12,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        9,
+        12
+      ],
+      "support_directed_edge_id": 52,
+      "support_undirected_edge_id": 26,
+      "q_uv": 9
+    },
+    {
+      "u": 12,
+      "v": 9,
+      "epsilon": 1,
+      "phase_real": 1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 0,
+      "source_edge": [
+        9,
+        12
+      ],
+      "support_directed_edge_id": 53,
+      "support_undirected_edge_id": 26,
+      "q_uv": 9
+    },
+    {
+      "u": 10,
+      "v": 11,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        10,
+        11
+      ],
+      "support_directed_edge_id": 54,
+      "support_undirected_edge_id": 27,
+      "q_uv": 9
+    },
+    {
+      "u": 11,
+      "v": 10,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        10,
+        11
+      ],
+      "support_directed_edge_id": 55,
+      "support_undirected_edge_id": 27,
+      "q_uv": 9
+    },
+    {
+      "u": 10,
+      "v": 13,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        10,
+        13
+      ],
+      "support_directed_edge_id": 56,
+      "support_undirected_edge_id": 28,
+      "q_uv": 9
+    },
+    {
+      "u": 13,
+      "v": 10,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        10,
+        13
+      ],
+      "support_directed_edge_id": 57,
+      "support_undirected_edge_id": 28,
+      "q_uv": 9
+    },
+    {
+      "u": 11,
+      "v": 14,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        11,
+        14
+      ],
+      "support_directed_edge_id": 58,
+      "support_undirected_edge_id": 29,
+      "q_uv": 9
+    },
+    {
+      "u": 14,
+      "v": 11,
+      "epsilon": -1,
+      "phase_real": -1.0,
+      "phase_imag": 0.0,
+      "transition_class": "z2_signed_lift",
+      "provenance": "Imported from aletheos.ai/theorem/cocycle_data_aligned.json; bit 0 is sheet-preserving / epsilon +1, bit 1 is sheet-flipping / epsilon -1; support matched against transport_edge_inventory.json.",
+      "cocycle_bit": 1,
+      "source_edge": [
+        11,
+        14
+      ],
+      "support_directed_edge_id": 59,
+      "support_undirected_edge_id": 29,
+      "q_uv": 9
+    }
+  ]
+}
